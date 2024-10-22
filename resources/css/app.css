@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.star-rating {
+  display: flex;
+  direction: row;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: gray;
+}
+
+.star.selected {
+  color: gold;
+}
